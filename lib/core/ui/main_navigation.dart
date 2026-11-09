@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mdeps_flutter/core/ui/screens/analytics_placeholder_screen.dart';
 import 'package:mdeps_flutter/core/ui/screens/governance_screen.dart';
 import 'package:mdeps_flutter/core/ui/screens/home_placeholder_screen.dart';
-import 'package:mdeps_flutter/iam/ui/profile_screen.dart';
+import 'package:mdeps_flutter/pm/ui/screens/profile_screen.dart';
 import 'package:mdeps_flutter/core/ui/screens/projects_placeholder_screen.dart';
 
 class MainNavigation extends StatefulWidget {
