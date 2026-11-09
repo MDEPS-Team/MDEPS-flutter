@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mdeps_flutter/core/ui/main_navigation.dart';
+import 'package:mdeps_flutter/iam/ui/login_screen.dart';
 
 void main() {
   runApp(const VantagePmoApp());
@@ -17,7 +17,7 @@ class VantagePmoApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1E3A5F)),
         useMaterial3: true,
       ),
-      home: const MainNavigation(),
+      home: const LoginScreen(),
     );
   }
 }
