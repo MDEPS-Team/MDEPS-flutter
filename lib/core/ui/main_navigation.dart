@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mdeps_flutter/core/ui/screens/analytics_placeholder_screen.dart';
+import 'package:mdeps_flutter/core/ui/screens/governance_screen.dart';
 import 'package:mdeps_flutter/core/ui/screens/home_placeholder_screen.dart';
 import 'package:mdeps_flutter/core/ui/screens/profile_placeholder_screen.dart';
 import 'package:mdeps_flutter/core/ui/screens/projects_placeholder_screen.dart';
@@ -18,6 +19,7 @@ class _MainNavigationState extends State<MainNavigation> {
     HomePlaceholderScreen(),
     ProjectsPlaceholderScreen(),
     AnalyticsPlaceholderScreen(),
+    GovernanceScreen(),
     ProfilePlaceholderScreen(),
   ];
 
@@ -51,6 +53,11 @@ class _MainNavigationState extends State<MainNavigation> {
             icon: Icon(Icons.insights_outlined),
             activeIcon: Icon(Icons.insights),
             label: 'Analytics',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.shield_outlined),
+            activeIcon: Icon(Icons.shield),
+            label: 'Governance',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_outline),
